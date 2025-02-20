@@ -76,6 +76,8 @@ body {
 	margin:0 auto;
 	background:linear-gradient(to right, #214a3a, #142420);
 	background:green;
+	/*position:sticky;
+	top:0;*/
 }.list-container .nav-links{
 	width:100%;
 	max-width:800px;
@@ -101,3 +103,91 @@ body {
 	background:#D0881C;
 	color:ghostwhite;
 }
+
+.main {
+	width:100%;
+	max-width:1300px;
+	margin:0 auto;
+}
+
+.top-frame{
+	width:100%;
+	max-width:1300px;
+	margin:0 auto;
+	background:green;
+	background-image: url("../images/carousel.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	height:600px;
+	
+}.top-frame .frame-head{
+	width:100%;
+	max-width:1000px;
+	margin:0 auto;
+	border:px solid white;
+	padding-top:130px;
+	display:flex;
+	justify-content:space-between;
+}.top-frame .frame-head div {
+	border:0px solid grey;
+	height:200px;
+}.top-frame .frame-head div h4, h1{
+	margin:0px;
+	margin-top:10px;
+	color:white;
+}.top-frame .frame-head div h4{
+	font-size:20px;
+}.top-frame .frame-head div h1{
+	font-size:50px;
+	margin-bottom:5px;
+}.top-frame .frame-head div a {
+	text-decoration:none;
+}.top-frame .frame-head div a button{
+	width:130px;
+	height:60px;
+	border:0px;
+	background:green;
+	color:white;
+	font-weight:bold;
+	font-size:15px;
+	margin-right:10px;
+}.top-frame .frame-head div a button:hover{
+	color:black;
+}.top-frame .frame-head img {
+	width:250px;
+	height:250px;
+	border:px solid red;
+}
+
+.short-serv {
+	width:100%;
+	max-width:1000px;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+	margin-top:-150px;
+}.short-serv .box{
+	width:500px;
+	border:0px solid grey;
+	color:white;
+	padding:50px;
+	background:green;
+	background-repeat:no-repeat;
+	background-size:30;
+	background-position:right;
+	background-image: url("../images/bg-product-2.png");
+}.short-serv .box-two{
+	width:500px;
+	border:0px solid grey;
+	color:white;
+	padding:50px;
+	background:#D0881C;
+	background-repeat:no-repeat;
+	background-size:30;
+	background-position:right;
+	background-image: url("../images/vegetable.png");
+}.short-serv .box h2,p,b{
+	margin:20px;
+}
+	
